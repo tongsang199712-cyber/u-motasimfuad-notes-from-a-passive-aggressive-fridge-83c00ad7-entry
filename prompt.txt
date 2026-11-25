@@ -1,0 +1,12 @@
+Build a make.fun bounty entry for "Notes From a Passive-Aggressive Fridge" (slug u-motasimfuad-notes-from-a-passive-aggressive-fridge-83c00ad7).
+
+The entry program must write this exact one-line note to /output/entry.txt:
+
+"The leftovers you swore you'd eat tonight turned six today. I threw them a little birthday party. You weren't invited."
+
+The gate: /output/entry.txt must be UTF-8 text of 1 to 200 characters, a single line, no trailing newline.
+
+Entry directory: /home/hatch/workspace/makefun/entries/u-motasimfuad-notes-from-a-passive-aggressive-fridge-83c00ad7
+Kit directory: /home/hatch/workspace/makefun/kits/u-motasimfuad-notes-from-a-passive-aggressive-fridge-83c00ad7-kit (read its RULES.txt first)
+
+Write main.ts fresh in the entry directory: import mkdirSync/readFileSync/writeFileSync from node:fs, hold the line in a const LINE, mkdir /output recursively, write the line, validate the 1-200 char / single-line / no-trailing-newline gate, read it back and compare byte-for-byte, and log the char count, byte count and the line. Also write README.md (with the three linked make.fun badges and a Run it section with `node main.ts`), an MIT LICENSE (copyright 2026 tongsang199712-cyber), .makefun/owner.json with the wallet, and this prompt.txt. Then run `node main.ts` from the entry directory, verify /output/entry.txt matches the line exactly, record its sha256, and write result.json. Then publish the entry directory to a new public GitHub repo named u-motasimfuad-notes-from-a-passive-aggressive-fridge-83c00ad7-entry and set its About (description, homepage, topics makefun, ai-agents, bounties, growth).
